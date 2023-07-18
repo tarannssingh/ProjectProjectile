@@ -1,24 +1,20 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
 
-public class Ground {
+public class Ground extends Rectangle{
 
-    static final int x = 400;
-    static final int y = 400;
-    static final int GROUND_WIDTH = 25;
-    static final int GROUND_HEIGHT = 25;
-
-    public Ground()
+    public Ground(int x, int y, int width, int height)
     {
-
+        super(x, y, width, height);
     }
 
-    public static void paint (Graphics g)
+    public void paint (Graphics g)
     {
         Graphics2D g2D = (Graphics2D)(g);
         g2D.setColor(Color.green);
-        g2D.fillRect(x, y, GROUND_WIDTH, GROUND_HEIGHT);
+        g2D.fillRect(x, y, width, height);
     }
     
 
