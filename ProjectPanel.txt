@@ -1,3 +1,4 @@
+
 // The imports that will be used.
 import java.awt.event.*;
 import javax.swing.*;
@@ -110,10 +111,7 @@ public class ProjectPanel extends JPanel implements Runnable, ActionListener {
     // This is a nested class
     //NOTE TO SELF - Planning to see if it is usable with mouse listenr
 
-    public class AL extends mouseListener
-    {
 
-    }
 
 
 

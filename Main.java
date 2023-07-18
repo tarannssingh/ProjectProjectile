@@ -2,10 +2,9 @@ public class Main{
 
     public static void main(String[] args) {
         
-        // Everything will start with summoning a GameFrame.
-
-        ProjectFrame frame = new ProjectFrame();
-
+        // Everything will start with summoning a JFrame.
+        MainFrame mainFrame = new MainFrame();
+        
     }
     
 }
