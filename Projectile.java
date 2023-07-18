@@ -1,6 +1,3 @@
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -12,7 +9,7 @@ public class Projectile extends Rectangle
     static double xVelocity;
     static double yVelocity;
     static double xAcceleration = 0;
-    static double yAcceleration = -.098; // This number is based on the timer 
+    static double yAcceleration = -.0098; // This number is based on the timer 
     
 
     public Projectile (int xPos, int yPos, int width, int height, double angle, double magnitude)
@@ -48,6 +45,10 @@ public class Projectile extends Rectangle
         g2D.setColor(Color.red);
         g2D.fillOval(x, y, width, height);
     }
+
+
+
+    
 }
 
  
